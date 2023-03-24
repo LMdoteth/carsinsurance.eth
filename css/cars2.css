@@ -902,6 +902,13 @@
   height: 50px;
 }
 
+.div-block-3 {
+  display: flex;
+  width: 393.4875183105469px;
+  height: 44px;
+  margin-left: -35px;
+}
+
 @media screen and (min-width: 1920px) {
   .hero-subscribe-left {
     overflow: hidden;
@@ -1042,7 +1049,7 @@
   }
 
   .shadow-two {
-    height: 350px;
+    height: 300px;
   }
 
   .team-slider {
@@ -1265,6 +1272,12 @@
 
   .image-2 {
     height: 50px;
+  }
+
+  .div-block-3 {
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -2076,6 +2089,11 @@
 
   .link-block {
     text-decoration: none;
+  }
+
+  .div-block-3 {
+    width: 100%;
+    margin-left: 0px;
   }
 }
 
